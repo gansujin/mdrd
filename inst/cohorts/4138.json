@@ -1,0 +1,154 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [{
+      "isExcluded": false,
+      "concept": {
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_ID": 3016723,
+        "STANDARD_CONCEPT": "S",
+        "CONCEPT_CODE": "2160-0",
+        "VOCABULARY_ID": "LOINC",
+        "CONCEPT_NAME": "Creatinine [Mass/volume] in Serum or Plasma",
+        "DOMAIN_ID": "Measurement",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "CONCEPT_CLASS_ID": "Lab Test",
+        "INVALID_REASON": "V"
+      },
+      "includeMapped": false,
+      "includeDescendants": false
+    }]},
+    "name": "[cbj]serum_creatinine",
+    "id": 0
+  }],
+  "EndStrategy": null,
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"Measurement": {
+        "Operator": null,
+        "RangeHigh": null,
+        "MeasurementTypeExclude": false,
+        "ValueAsConcept": null,
+        "CorrelatedCriteria": null,
+        "RangeHighRatio": null,
+        "CodesetId": 0,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "Unit": null,
+        "RangeLowRatio": null,
+        "MeasurementType": null,
+        "MeasurementSourceConcept": null,
+        "VisitType": null,
+        "ValueAsNumber": {
+          "Op": "gt",
+          "Extent": null,
+          "Value": 2
+        },
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RangeLow": null,
+        "Abnormal": null,
+        "Age": null
+      }},
+      {"Measurement": {
+        "Operator": null,
+        "RangeHigh": null,
+        "MeasurementTypeExclude": false,
+        "ValueAsConcept": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [{
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 3,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"Measurement": {
+              "Operator": null,
+              "RangeHigh": null,
+              "MeasurementTypeExclude": false,
+              "ValueAsConcept": null,
+              "CorrelatedCriteria": null,
+              "RangeHighRatio": null,
+              "CodesetId": 0,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "Unit": null,
+              "RangeLowRatio": null,
+              "MeasurementType": null,
+              "MeasurementSourceConcept": null,
+              "VisitType": null,
+              "ValueAsNumber": {
+                "Op": "lt",
+                "Extent": null,
+                "Value": 1.3
+              },
+              "First": null,
+              "OccurrenceStartDate": null,
+              "RangeLow": null,
+              "Abnormal": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          }],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "RangeHighRatio": null,
+        "CodesetId": 0,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "Unit": null,
+        "RangeLowRatio": null,
+        "MeasurementType": null,
+        "MeasurementSourceConcept": null,
+        "VisitType": null,
+        "ValueAsNumber": {
+          "Op": "gt",
+          "Extent": null,
+          "Value": 1.6
+        },
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RangeLow": null,
+        "Abnormal": null,
+        "Age": null
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
