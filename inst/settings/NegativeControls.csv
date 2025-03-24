@@ -1,0 +1,5 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+4123,4124,380038,Viral conjunctivitis,outcome
+4123,4124,4291005,Viral hepatitis,outcome
+4123,4124,4115367,Wrist joint pain,outcome
+4123,4124,440193,Wristdrop,outcome

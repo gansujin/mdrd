@@ -1,0 +1,2517 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4058335,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "169069000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of chest",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4060499,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "169068008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of neck",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4082696,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "241570001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of lower limb",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4086254,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "241563001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of upper limb",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4086260,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "241577003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of spine",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4125350,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "303653007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of head",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4139745,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32962002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of abdomen with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4304092,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "419394006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of abdomen and pelvis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37109313,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396101000119105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of abdomen without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[cbj] CT",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19003201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "27729",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "iodixanol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19003206,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "27781",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "iopromide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19069131,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "27792",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ioversol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19080985,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5956",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "iohexol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19081224,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5966",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "iopamidol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21605396,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "V08AB11",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "iobitridol; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 36878931,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "OMOP1000237",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Iomeprol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "U"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[cbj] contrast",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3051825,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38483-4",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Creatinine [Mass/volume] in Blood",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3016723,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2160-0",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Creatinine [Mass/volume] in Serum or Plasma",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[cbj] creatinine",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42505888,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "Z94.0",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Kidney transplant status",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42539502,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "737295003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transplanted kidney present",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[cbj] kidney_transplant",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4050863,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233578004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Continuous hemodialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4051329,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233580005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Continuous venovenous hemodialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37521159,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "10061105",
+            "VOCABULARY_ID": "MedDRA",
+            "CONCEPT_NAME": "Dialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "PT",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4032243,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "108241001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Dialysis procedure",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4120120,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "302497006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hemodialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4146536,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "265764009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Renal dialysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Dialysis",
+      "id": 7
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4184832,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41339005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary angioplasty",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4006788,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11101003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous transluminal coronary angioplasty",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4137380,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "425611003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous transluminal insertion of stent into carotid artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45770937,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "705928000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary angioplasty catheter",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Physical Object",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45767945,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "705643001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary artery stent",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Physical Object",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4131681,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "411191007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Drug eluting stent",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Pharma/Biol Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2001504,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36.05",
+            "VOCABULARY_ID": "ICD9Proc",
+            "CONCEPT_NAME": "Multiple vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary atherectomy performed during the same operation, with or without mention of thrombolytic agent",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4216130,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "415070008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous coronary intervention",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4337739,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232727003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous directional coronary atherectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43533187,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "C9606",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Percutaneous transluminal revascularization of acute total/subtotal occlusion during acute myocardial infarction, coronary artery or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, includi...",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43533242,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "C9608",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty; each additional coronary...",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43533354,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "C9607",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of drug-eluting intracoronary stent, atherectomy and angioplasty; single vessel",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43528003,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "92943",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Percutaneous transluminal revascularization of chronic total occlusion, coronary artery, coronary artery branch, or coronary artery bypass graft, any combination of intracoronary stent, atherectomy and angioplasty; single vessel",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43533223,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "C9605",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including distal protection when perform...",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43533186,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "C9604",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Percutaneous transluminal revascularization of or through coronary artery bypass graft (internal mammary, free arterial, venous), any combination of drug-eluting intracoronary stent, atherectomy and angioplasty, including distal protection when perform...",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4283892,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36969009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Placement of stent in coronary artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45758194,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "462755008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Radio-frequency coronary angioplasty system",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Physical Object",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2001501,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36.02",
+            "VOCABULARY_ID": "ICD9Proc",
+            "CONCEPT_NAME": "Single vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary atherectomy with mention of thrombolytic agent",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2001500,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36.01",
+            "VOCABULARY_ID": "ICD9Proc",
+            "CONCEPT_NAME": "Single vessel percutaneous transluminal coronary angioplasty [PTCA] or coronary atherectomy without mention of thrombolytic agent",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] Percutaneous coronary intervention",
+      "id": 8
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 762008,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "285321000119103",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute deep venous thrombosis of bilateral axillary veins",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40481586,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "444968003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT angiography of abdominal aorta with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713226,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "411251000119104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT angiography of chest with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36717296,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16332841000119106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT angiography of pulmonary artery with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40481588,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "444970007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT angiography of thoracic aorta with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4196015,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431214001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT enteroclysis",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4082699,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "241589001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT myelogram",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4139745,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32962002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of abdomen with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37395742,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "715293004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of abdomen with contrast for radiotherapy planning",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4332664,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "430430003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of adrenal gland with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45773374,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702491002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of ankle with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4198764,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "433111008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of brain perfusion",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4288538,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396207002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of brain with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4296895,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "762008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of cervical spine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765531,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702494005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of elbow with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4233908,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "440330000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of esophagus with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765472,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702420007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of facial bones with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45771286,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702495006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of foot with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4329375,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431621009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of forearm with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765661,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702647009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of hand with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765554,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702520005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of head and facial bones with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37396030,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "715692000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of head with contrast for radiotherapy planning",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35608046,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "764579002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of heart with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4330520,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431665001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of hip with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4325043,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429931008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of kidney with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37310791,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "143521000000107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of kidney, ureter and bladder with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45771287,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702501008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of knee with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4335092,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431997003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of larynx with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4324347,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429862006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of liver with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4325532,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "430436009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of lower leg with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765537,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702502001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of lower limb with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4196152,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431326009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of neck with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37395743,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "715294005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of neck with contrast for radiotherapy planning",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713180,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "383441000119108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of orbit and sella turcica with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4330929,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429852004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of orbit with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4330377,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431492000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of paranasal sinuses with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4327251,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429863001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of parotid gland with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4252907,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "74710000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of pelvis with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37396028,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "715690008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of pelvis with contrast for radiotherapy planning",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4332770,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "430452007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of sacral spine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4324343,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429854003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of shoulder with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37396234,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "715970002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of small intestine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765542,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702507007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of sternum with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35608047,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "764580004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of stomach with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45763746,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "700246004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of temporal bone with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4326357,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "430432006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of thigh with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4014408,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "113105001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of thoracic spine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4327032,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75385009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of thorax with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37395895,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "715494008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of thorax with contrast for radiotherapy planning",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765544,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702509005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of thyroid with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4330646,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431746002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of upper arm with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4098132,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "26946001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of upper extremity with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4258698,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "440494008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of urinary tract with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713614,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "718527007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of whole body with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4324345,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429859008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of whole spine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45773375,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702512008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of wrist with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40489436,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "448343004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT perfusion study of neck",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4335400,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "432370003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Computed tomography of abdomen and pelvis with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765550,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702516006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Computed tomography of cervical and lumbar spine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765524,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702486003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Computed tomography of cervical and thoracic spine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45765526,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "702488002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Computed tomography of thoracic and lumbar spine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37017561,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "713859006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Computed tomography of urinary tract excretory phase with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4236168,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "90523008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Computerized axial tomography of lumbar spine with contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35622113,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "763454007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fluoroscopy using contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] CTwithCont",
+      "id": 9
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713283,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "572061000119104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT cervical spine without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37109313,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396101000119105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of abdomen without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713200,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "395081000119108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of chest without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713176,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "383371000119108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of head without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713188,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "384521000119100",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of lower limb without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713285,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "572091000119106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of lumbar spine without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713202,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "395771000119107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of pelvis without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36713197,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "394491000119101",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CT of upper limb without contrast",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] CTwithoutCont",
+      "id": 10
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 1
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 5,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ANY",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "any histories of kidney transplantation",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 2,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"Measurement": {
+            "Operator": null,
+            "RangeHigh": null,
+            "MeasurementTypeExclude": false,
+            "ValueAsConcept": null,
+            "CorrelatedCriteria": null,
+            "RangeHighRatio": null,
+            "CodesetId": 2,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "Unit": null,
+            "RangeLowRatio": null,
+            "MeasurementType": null,
+            "MeasurementSourceConcept": null,
+            "VisitType": null,
+            "ValueAsNumber": {
+              "Op": "gte",
+              "Extent": null,
+              "Value": 0.001
+            },
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RangeLow": null,
+            "Abnormal": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Presence of serum creatinine test (before)",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 1,
+              "Coeff": 1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"Measurement": {
+            "Operator": null,
+            "RangeHigh": null,
+            "MeasurementTypeExclude": false,
+            "ValueAsConcept": null,
+            "CorrelatedCriteria": null,
+            "RangeHighRatio": null,
+            "CodesetId": 2,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "Unit": null,
+            "RangeLowRatio": null,
+            "MeasurementType": null,
+            "MeasurementSourceConcept": null,
+            "VisitType": null,
+            "ValueAsNumber": {
+              "Op": "gte",
+              "Extent": null,
+              "Value": 0.001
+            },
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RangeLow": null,
+            "Abnormal": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Presence of serum creatinine test (after)",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 0,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "before_CT",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 1,
+              "Coeff": 1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 0,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "after_CT",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 7,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Dialysis within 7 days prior to CT",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 14,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 8,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "No history of using iodinated contrast for PCI within 14d prior to, or within 7d after the index date (CT)",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"ProcedureOccurrence": {
+        "ProcedureType": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [{
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 1,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"DrugExposure": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "DrugSourceConcept": null,
+              "CodesetId": 1,
+              "DrugTypeExclude": false,
+              "Quantity": null,
+              "DrugType": null,
+              "ProviderSpecialty": null,
+              "EffectiveDrugDose": null,
+              "Gender": null,
+              "DaysSupply": null,
+              "DoseUnit": null,
+              "VisitType": null,
+              "Refills": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "RouteConcept": null,
+              "StopReason": null,
+              "LotNumber": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          }],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "CodesetId": 0,
+        "ProcedureSourceConcept": null,
+        "Quantity": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "ProcedureTypeExclude": false,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Modifier": null,
+        "Age": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 18
+        }
+      }},
+      {"ProcedureOccurrence": {
+        "ProcedureType": null,
+        "CorrelatedCriteria": null,
+        "CodesetId": 9,
+        "ProcedureSourceConcept": null,
+        "Quantity": null,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "ProcedureTypeExclude": false,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "Modifier": null,
+        "Age": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 18
+        }
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 30
+    }
+  }
+}
